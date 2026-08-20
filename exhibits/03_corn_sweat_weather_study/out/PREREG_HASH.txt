@@ -1,0 +1,21 @@
+a6da2b7132685c9fe220243cec8d8f957c19de6b8e35c669fa36df40d584dcc2  PREREG_CORN_SWEAT.md
+fb43b4814ea1a6710c377d966f56cd5474a00071a8e14df750ed2213b4825ac7  AMENDMENT_1_measurement_gap.md
+f1be4880a47ee1d2822489fc1b3f6fb7c3d0c61c8d796467028a13e84cbfddd7  AMENDMENT_2_statcast_carry.md
+5f3b38fb8afc78e223e20a1934abcedf4301fc10eac4e5335192bfb125a07f32  AMENDMENT_3_review_response.md
+3873c7291110ea5281a33c77cd3ecb24f525133865d6541e3cd7853e06a56c46  VARIANT_LEDGER.md
+
+--- REVISION RECORD (2026-08-09, lane close) ---
+FROZEN docs verified byte-identical to their recorded hashes at lane close:
+  PREREG_CORN_SWEAT.md            a6da2b71...  UNCHANGED (never edited, as required)
+  AMENDMENT_1_measurement_gap.md  fb43b481...  UNCHANGED
+  AMENDMENT_2_statcast_carry.md   f1be4880...  UNCHANGED
+  VARIANT_LEDGER.md               3873c729...  UNCHANGED
+
+AMENDMENT_3_review_response.md is a CORRECTIVE doc, not a frozen prereg, and was revised:
+  5f3b38fb8afc78e223e20a1934abcedf4301fc10eac4e5335192bfb125a07f32  (initial: retractions R1-R5, N1-N5)
+  dda11145489286794af9e71b13f76ea1524c0a95baf9911a6af14f26ba8d6378  (CURRENT: adds N6 roof-state split,
+                                                                     N7 Coors regeneration, N8 A2 plant relabel)
+Revision is legitimate here BECAUSE A3 makes no pre-registered claim -- it is labelled exploratory/
+corrective throughout. Frozen documents were superseded, never edited (prereg-provenance-rules).
+RESULTS.md banner cites dda11145.
+a409cd10bc53f2748b3651ddb33475c35236b267638bd6754ac32137003a5099  PREREG_LIGHT_53_overnight.md

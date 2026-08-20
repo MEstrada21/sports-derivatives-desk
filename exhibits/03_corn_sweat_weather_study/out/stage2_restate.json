@@ -1,0 +1,154 @@
+{
+  "seed": 20260809,
+  "item1_per_season": {
+    "2023": 0.06863860955379616,
+    "2024": 0.07085842327802261,
+    "2025": 2.9012258174580285
+  },
+  "item1_season_clustered": {
+    "mean": 1.013574283429949,
+    "sd": 1.6347545587433496,
+    "n_seasons": 3,
+    "ci_lo": -3.047708928086295,
+    "ci_hi": 5.074857494946193,
+    "contains_zero": true
+  },
+  "item2_parks": [
+    {
+      "park_id": "17",
+      "park": "Wrigley Field",
+      "is_corn": true,
+      "level_parent": 0.7209101371500314,
+      "shape_did": -0.9187444647493973,
+      "n_win": 64,
+      "n_shoulder": 125
+    },
+    {
+      "park_id": "2",
+      "park": "Oriole Park at Camden Yards",
+      "is_corn": false,
+      "level_parent": 0.8734812711455363,
+      "shape_did": 0.6068422877910986,
+      "n_win": 73,
+      "n_shoulder": 134
+    },
+    {
+      "park_id": "2394",
+      "park": "Comerica Park",
+      "is_corn": true,
+      "level_parent": -0.562424999892487,
+      "shape_did": 0.7538032334605126,
+      "n_win": 70,
+      "n_shoulder": 139
+    },
+    {
+      "park_id": "2602",
+      "park": "Great American Ball Park",
+      "is_corn": true,
+      "level_parent": 0.24029742633507256,
+      "shape_did": 0.8638019908286413,
+      "n_win": 65,
+      "n_shoulder": 123
+    },
+    {
+      "park_id": "2681",
+      "park": "Citizens Bank Park",
+      "is_corn": false,
+      "level_parent": -1.1232045679544502,
+      "shape_did": -0.47663823926728077,
+      "n_win": 74,
+      "n_shoulder": 128
+    },
+    {
+      "park_id": "2889",
+      "park": "Busch Stadium",
+      "is_corn": true,
+      "level_parent": 1.9271423073182512,
+      "shape_did": 1.096180572465265,
+      "n_win": 76,
+      "n_shoulder": 132
+    },
+    {
+      "park_id": "3",
+      "park": "Fenway Park",
+      "is_corn": false,
+      "level_parent": -0.08738928709651088,
+      "shape_did": 0.3989947408109092,
+      "n_win": 67,
+      "n_shoulder": 136
+    },
+    {
+      "park_id": "31",
+      "park": "PNC Park",
+      "is_corn": false,
+      "level_parent": -0.7830871196876394,
+      "shape_did": -0.278038219964582,
+      "n_win": 69,
+      "n_shoulder": 133
+    },
+    {
+      "park_id": "3289",
+      "park": "Citi Field",
+      "is_corn": false,
+      "level_parent": -0.25478311203883675,
+      "shape_did": 0.46718446315846984,
+      "n_win": 72,
+      "n_shoulder": 131
+    },
+    {
+      "park_id": "3309",
+      "park": "Nationals Park",
+      "is_corn": false,
+      "level_parent": -0.09953039650490729,
+      "shape_did": 0.7867122925463025,
+      "n_win": 63,
+      "n_shoulder": 132
+    },
+    {
+      "park_id": "3312",
+      "park": "Target Field",
+      "is_corn": true,
+      "level_parent": -0.4556246780892172,
+      "shape_did": 1.8621620660066986,
+      "n_win": 66,
+      "n_shoulder": 134
+    },
+    {
+      "park_id": "3313",
+      "park": "Yankee Stadium",
+      "is_corn": false,
+      "level_parent": -1.503481381651525,
+      "shape_did": -1.5001412490427861,
+      "n_win": 64,
+      "n_shoulder": 131
+    },
+    {
+      "park_id": "4",
+      "park": "Rate Field",
+      "is_corn": true,
+      "level_parent": 1.2584313108889078,
+      "shape_did": 1.1084748265677813,
+      "n_win": 69,
+      "n_shoulder": 137
+    },
+    {
+      "park_id": "5",
+      "park": "Progressive Field",
+      "is_corn": false,
+      "level_parent": 0.2644751592339741,
+      "shape_did": -1.9389811191128983,
+      "n_win": 70,
+      "n_shoulder": 129
+    },
+    {
+      "park_id": "7",
+      "park": "Kauffman Stadium",
+      "is_corn": true,
+      "level_parent": 1.5859599066232855,
+      "shape_did": 1.4825209938448318,
+      "n_win": 64,
+      "n_shoulder": 128
+    }
+  ],
+  "item2_shape_corn_minus_control": 1.134358018731429
+}

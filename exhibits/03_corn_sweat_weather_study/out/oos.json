@@ -1,0 +1,57 @@
+{
+  "fit_2023_2024|K/PA": {
+    "label": "fit_2023_2024|K/PA",
+    "key": "dew_point_c",
+    "n_games": 3469,
+    "n_bip": 262158,
+    "n_hr": 58974,
+    "base_rate_pp": 22.495594259950106,
+    "beta_pp": -0.057283359622062324,
+    "se_pp": 0.026140224453181808,
+    "ci_lo_pp": -0.10851819955029866,
+    "ci_hi_pp": -0.006048519693825985
+  },
+  "fit_2023_2024|HR/BIP": {
+    "label": "fit_2023_2024|HR/BIP",
+    "key": "dew_point_c",
+    "n_games": 3469,
+    "n_bip": 176857,
+    "n_hr": 8055,
+    "base_rate_pp": 4.554527103818339,
+    "beta_pp": -0.001169365775652298,
+    "se_pp": 0.013450231241810134,
+    "ci_lo_pp": -0.02753181900960016,
+    "ci_hi_pp": 0.025193087458295564
+  },
+  "heldout_2025_2026|K/PA": {
+    "label": "heldout_2025_2026|K/PA",
+    "key": "dew_point_c",
+    "n_games": 2668,
+    "n_bip": 201982,
+    "n_hr": 44783,
+    "base_rate_pp": 22.171777683159885,
+    "beta_pp": -0.06806641008922365,
+    "se_pp": 0.026208883255911194,
+    "ci_lo_pp": -0.1194358212708096,
+    "ci_hi_pp": -0.016696998907637713
+  },
+  "heldout_2025_2026|HR/BIP": {
+    "label": "heldout_2025_2026|HR/BIP",
+    "key": "dew_point_c",
+    "n_games": 2668,
+    "n_bip": 136301,
+    "n_hr": 6156,
+    "base_rate_pp": 4.516474567317921,
+    "beta_pp": 0.010806055958950678,
+    "se_pp": 0.014610304569639155,
+    "ci_lo_pp": -0.017830140997542064,
+    "ci_hi_pp": 0.03944225291544342
+  },
+  "verdict_K": {
+    "same_sign": true,
+    "heldout_ci_excludes_zero": true,
+    "replicates_out_of_sample": true,
+    "fit_beta": -0.057283359622062324,
+    "heldout_beta": -0.06806641008922365
+  }
+}

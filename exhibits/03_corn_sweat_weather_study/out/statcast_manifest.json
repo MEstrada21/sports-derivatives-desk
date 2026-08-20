@@ -1,0 +1,44 @@
+{
+  "pybaseball_version": "2.2.7",
+  "source": "Baseball Savant via pybaseball.statcast",
+  "pull_started_utc": "2026-08-09T19:35:19.040936+00:00",
+  "pull_finished_utc": "2026-08-09T19:57:57.060928+00:00",
+  "windows": [
+    [
+      "2023-03-15",
+      "2023-10-15"
+    ],
+    [
+      "2024-03-15",
+      "2024-10-15"
+    ],
+    [
+      "2025-03-15",
+      "2025-10-15"
+    ],
+    [
+      "2026-03-15",
+      "2026-07-02"
+    ]
+  ],
+  "n_days_cached": 755,
+  "n_batted_balls_cached": 879630,
+  "columns_kept": [
+    "game_pk",
+    "game_date",
+    "game_type",
+    "launch_speed",
+    "launch_angle",
+    "hit_distance_sc",
+    "bb_type",
+    "events",
+    "description",
+    "home_team",
+    "inning",
+    "batter",
+    "pitcher",
+    "stand",
+    "p_throws"
+  ],
+  "note": "batted balls with non-null hit_distance_sc only; per-day idempotent cache"
+}

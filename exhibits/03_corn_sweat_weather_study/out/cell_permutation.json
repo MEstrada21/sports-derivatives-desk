@@ -1,0 +1,54 @@
+{
+  "seed": 20260809,
+  "n_perm": 300,
+  "n_corn_parks": 7,
+  "n_parks": 23,
+  "real_corn_parks": [
+    "17",
+    "2394",
+    "2602",
+    "2889",
+    "3312",
+    "4",
+    "7"
+  ],
+  "endpoints": {
+    "break_mag": {
+      "beta_observed": -0.026933494729839483,
+      "z_game_clustered_OVERSTATED": -1.226030469889232,
+      "perm_mean": 0.0056877185574036844,
+      "perm_sd": 0.026810270961718227,
+      "perm_p_two_sided": 0.3333333333333333,
+      "observed_percentile_in_null": 12.0,
+      "z_vs_permutation_sd": -1.216743140486057
+    },
+    "spin": {
+      "beta_observed": -3.7754809520285786,
+      "z_game_clustered_OVERSTATED": -2.6480595835179237,
+      "perm_mean": -0.29182635301055115,
+      "perm_sd": 2.513235291459183,
+      "perm_p_two_sided": 0.14,
+      "observed_percentile_in_null": 7.000000000000001,
+      "z_vs_permutation_sd": -1.3861235399871454
+    },
+    "velo": {
+      "beta_observed": 0.004650118421150151,
+      "z_game_clustered_OVERSTATED": 0.2362939557942761,
+      "perm_mean": -0.009489367362216651,
+      "perm_sd": 0.035445227103012955,
+      "perm_p_two_sided": 0.88,
+      "observed_percentile_in_null": 64.0,
+      "z_vs_permutation_sd": 0.398910853138952
+    }
+  },
+  "spin_era": {
+    "fit 2023-2024": {
+      "beta": 0.959924313551495,
+      "z_game_clustered": 0.5403745917698894
+    },
+    "held-out 2025-2026": {
+      "beta": -11.297360714919229,
+      "z_game_clustered": -4.820367900751275
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "seed": 20260809,
+  "open-air (reference)": {
+    "label": "open-air (reference)",
+    "n_pitches": 1743286,
+    "n_games": 6135,
+    "beta_pressure": 11.908955948889904,
+    "se_pressure": 0.9174808827739838,
+    "z_pressure": 12.980058955433961,
+    "beta_vapor": -39.08759471342643,
+    "se_vapor": 3.0155335541582167,
+    "z_vapor": -12.962082500964806,
+    "z_equal_and_opposite": -8.238543916237319,
+    "insufficient": false
+  },
+  "retractable, roof OPEN": {
+    "label": "retractable, roof OPEN",
+    "n_pitches": 171833,
+    "n_games": 603,
+    "beta_pressure": -5.425580998585868,
+    "se_pressure": 4.5417131536335065,
+    "z_pressure": -1.1946111115021083,
+    "beta_vapor": -53.40806747539861,
+    "se_vapor": 13.78099461119717,
+    "z_vapor": -3.87548714604417,
+    "z_equal_and_opposite": -3.9202125239581322,
+    "insufficient": false
+  },
+  "retractable, roof CLOSED": {
+    "label": "retractable, roof CLOSED",
+    "n_pitches": 361627,
+    "n_games": 1282,
+    "beta_pressure": 9.50300629249266,
+    "se_pressure": 1.6199324331658025,
+    "z_pressure": 5.866297938069627,
+    "beta_vapor": -32.569276683498046,
+    "se_vapor": 5.51238737008182,
+    "z_vapor": -5.908379527220095,
+    "z_equal_and_opposite": -3.8498974754092194,
+    "insufficient": false
+  },
+  "roof_verdict": {
+    "vapour_severed_by_closed_roof": false,
+    "pressure_survives_closed_roof": true
+  },
+  "coors_grid": [
+    {
+      "n_pairs": 878,
+      "min_coors": 2,
+      "min_other": 10,
+      "min_n": 3,
+      "break_coors": 11.589841097163989,
+      "break_other": 14.97174558450133,
+      "rho_coors": 0.9885473892692218,
+      "rho_other": 1.176754921104704,
+      "slope_in_per_kgm3": 17.969017787734263,
+      "break_ratio_pct": 77.41142161246536,
+      "rho_ratio_pct": 84.00622521647938
+    },
+    {
+      "n_pairs": 1136,
+      "min_coors": 2,
+      "min_other": 10,
+      "min_n": 1,
+      "break_coors": 11.514043839477292,
+      "break_other": 14.789518471177994,
+      "rho_coors": 0.9885165934277017,
+      "rho_other": 1.1764631999467339,
+      "slope_in_per_kgm3": 17.42768700305858,
+      "break_ratio_pct": 77.8527297012138,
+      "rho_ratio_pct": 84.02443811863034
+    },
+    {
+      "n_pairs": 144,
+      "min_coors": 5,
+      "min_other": 20,
+      "min_n": 3,
+      "break_coors": 11.589684184528029,
+      "break_other": 14.895173928386718,
+      "rho_coors": 0.988838730647685,
+      "rho_other": 1.1795337377975113,
+      "slope_in_per_kgm3": 17.333908177583357,
+      "break_ratio_pct": 77.80831724590205,
+      "rho_ratio_pct": 83.83301799354192
+    },
+    {
+      "n_pairs": 20,
+      "min_coors": 10,
+      "min_other": 50,
+      "min_n": 3,
+      "break_coors": 11.976810236949554,
+      "break_other": 14.921413077604901,
+      "rho_coors": 0.9892873951878779,
+      "rho_other": 1.1744216576177275,
+      "slope_in_per_kgm3": 15.90522900519889,
+      "break_ratio_pct": 80.26592504784408,
+      "rho_ratio_pct": 84.23613348502208
+    },
+    {
+      "n_pairs": 1979,
+      "min_coors": 1,
+      "min_other": 5,
+      "min_n": 3,
+      "break_coors": 11.475259188308664,
+      "break_other": 14.723689697434782,
+      "rho_coors": 0.9882313617057646,
+      "rho_other": 1.1752851468838856,
+      "slope_in_per_kgm3": 17.366291230262018,
+      "break_ratio_pct": 77.93738814196776,
+      "rho_ratio_pct": 84.08439129226898
+    }
+  ],
+  "coors_slope_range": [
+    15.90522900519889,
+    17.969017787734263
+  ]
+}

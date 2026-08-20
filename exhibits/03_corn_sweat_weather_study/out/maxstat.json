@@ -1,0 +1,58 @@
+{
+  "n_perm": 400,
+  "family_size": 6,
+  "observed_z": {
+    "vapour": 0.3248671938791398,
+    "K/PA": -3.550714850328188,
+    "BB/PA": -0.6460840349443763,
+    "early": -0.33067843143251835,
+    "late": 1.319707832481699,
+    "HR (primary)": 0.5278816673089918
+  },
+  "maxstat_crit_95": 2.4792156081354237,
+  "maxstat_mean": 1.5812707768218204,
+  "endpoints": {
+    "vapour": {
+      "z": 0.3248671938791398,
+      "p_marginal_perm": 0.755,
+      "p_familywise_maxstat": 0.9975,
+      "perm_mean_z": -0.20396771382893727,
+      "perm_sd_z": 0.9465715965500655
+    },
+    "K/PA": {
+      "z": -3.550714850328188,
+      "p_marginal_perm": 0.0,
+      "p_familywise_maxstat": 0.0,
+      "perm_mean_z": -0.22892720713057496,
+      "perm_sd_z": 0.9139798826865093
+    },
+    "BB/PA": {
+      "z": -0.6460840349443763,
+      "p_marginal_perm": 0.4825,
+      "p_familywise_maxstat": 0.975,
+      "perm_mean_z": 0.25661094957165803,
+      "perm_sd_z": 0.9370653059381596
+    },
+    "early": {
+      "z": -0.33067843143251835,
+      "p_marginal_perm": 0.7125,
+      "p_familywise_maxstat": 0.9975,
+      "perm_mean_z": -0.2920501984403905,
+      "perm_sd_z": 0.9475519710962195
+    },
+    "late": {
+      "z": 1.319707832481699,
+      "p_marginal_perm": 0.1625,
+      "p_familywise_maxstat": 0.675,
+      "perm_mean_z": 0.018645019848827615,
+      "perm_sd_z": 0.9338302076317592
+    },
+    "HR (primary)": {
+      "z": 0.5278816673089918,
+      "p_marginal_perm": 0.575,
+      "p_familywise_maxstat": 0.99,
+      "perm_mean_z": -0.23034091406774287,
+      "perm_sd_z": 0.9155740463822315
+    }
+  }
+}

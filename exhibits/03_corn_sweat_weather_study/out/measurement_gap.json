@@ -1,0 +1,82 @@
+{
+  "seed": 20260809,
+  "amendment": "AMENDMENT_1_measurement_gap.md",
+  "status": "EXPLORATORY - not pre-registered, parent data pull preceded it",
+  "window_doy": [
+    191,
+    243
+  ],
+  "pitch_break_mag": {
+    "label": "corn x window -> break_mag",
+    "y": "break_mag",
+    "beta": -0.026933494729839483,
+    "se": 0.02196804679109879,
+    "z": -1.226030469889232,
+    "ci_lo": -0.06999086644039311,
+    "ci_hi": 0.016123876980714144,
+    "n_pitches": 1740978,
+    "n_cell_pitches": 134193
+  },
+  "pitch_spin": {
+    "label": "corn x window -> spin",
+    "y": "spin",
+    "beta": -3.7754809520285786,
+    "se": 1.425753776662716,
+    "z": -2.6480595835179237,
+    "ci_lo": -6.569958354287502,
+    "ci_hi": -0.9810035497696554,
+    "n_pitches": 1740978,
+    "n_cell_pitches": 134193
+  },
+  "pitch_velo": {
+    "label": "corn x window -> velo",
+    "y": "velo",
+    "beta": 0.004650118421150151,
+    "se": 0.01967937946410559,
+    "z": 0.2362939557942761,
+    "ci_lo": -0.033921465328496804,
+    "ci_hi": 0.043221702170797106,
+    "n_pitches": 1740978,
+    "n_cell_pitches": 134193
+  },
+  "game_hr": {
+    "label": "corn x window -> HR/BIP",
+    "y": "hr/bip",
+    "beta_pp": 0.0686749919729307,
+    "se_pp": 0.19073677779054876,
+    "z": 0.36005112788653615,
+    "ci_lo_pp": -0.3051690924965449,
+    "ci_hi_pp": 0.4425190764424063,
+    "n_games": 6137,
+    "n_cell_games": 474
+  },
+  "game_k": {
+    "label": "corn x window -> K/PA",
+    "y": "k/pa",
+    "beta_pp": 0.061557421217917074,
+    "se_pp": 0.34175867249223907,
+    "z": 0.18011955854409217,
+    "ci_lo_pp": -0.6082895768668715,
+    "ci_hi_pp": 0.7314044193027056,
+    "n_games": 6137,
+    "n_cell_games": 474
+  },
+  "perm_break_z": [
+    -2.0745309767987226,
+    -2.2401377412538097,
+    -2.2960852282344417,
+    -2.01606693988266,
+    -2.267344056914379
+  ],
+  "implied": {
+    "break_beta_in": -0.026933494729839483,
+    "implied_extra_vapor_kgm3": 0.0006895415957460185,
+    "implied_extra_dewpoint_c": 1.172688874625507,
+    "cell_mean_temp_c": 26.95443037974684,
+    "cell_mean_dew_c": 18.03403633309729,
+    "ci_kgm3": [
+      -0.0004127976697571465,
+      0.0017918808612491836
+    ]
+  }
+}

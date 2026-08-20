@@ -1,0 +1,139 @@
+{
+  "seed": 20260809,
+  "amendment": "AMENDMENT_2_statcast_carry.md",
+  "amendment_sha256": "f1be4880a47ee1d2822489fc1b3f6fb7c3d0c61c8d796467028a13e84cbfddd7",
+  "status": "PRE-REGISTERED (data ask registered in parent prereg before results; spec frozen before pull)",
+  "filters": {
+    "cached_batted_rows": 879630,
+    "after_game_type_R": 836526,
+    "after_in_play_bb_type": 438664,
+    "foul_or_nonBIP_fraction_dropped": 0.47561223440753786,
+    "after_launch_angle_window": 202715,
+    "after_ev_dist_floor": 198560,
+    "after_weather_join": 196404,
+    "weather_join_rate": 0.9891418211120064
+  },
+  "physics_ft_per_kgm3": 215.0,
+  "h2_1_primary": {
+    "label": "PRIMARY open-air ex-Coors",
+    "y": "hit_distance_sc",
+    "n": 139602,
+    "n_games": 6023,
+    "n_cells": 276,
+    "beta_pressure": -96.06226425964178,
+    "se_pressure": 12.353128186931503,
+    "z_pressure": -7.776351285763148,
+    "beta_vapor": 258.6659944958319,
+    "se_vapor": 41.010854938050095,
+    "z_vapor": 6.307256819848449,
+    "sum_equal_and_opposite": 162.60373023619013,
+    "se_sum": 45.65434561921778,
+    "z_equal_and_opposite": 3.561626566557195,
+    "mean_y": 292.68996862509135
+  },
+  "h2_placebo_roofed": {
+    "label": "roofed placebo (vapour channel only)",
+    "y": "hit_distance_sc",
+    "n": 49743,
+    "n_games": 2195,
+    "n_cells": 263,
+    "beta_pressure": -93.43415258328923,
+    "se_pressure": 20.957434022328062,
+    "z_pressure": -4.4582820818495446,
+    "beta_vapor": 151.6090930676828,
+    "se_vapor": 62.723071700232445,
+    "z_vapor": 2.4171184375704127,
+    "sum_equal_and_opposite": 58.174940484393574,
+    "se_sum": 70.01458501412701,
+    "z_equal_and_opposite": 0.8308974547611112,
+    "mean_y": 294.05594757051244
+  },
+  "h2_placebo_launch_speed": {
+    "label": "launch_speed placebo",
+    "y": "launch_speed",
+    "n": 139602,
+    "n_games": 6023,
+    "n_cells": 276,
+    "beta_pressure": 0.2530223526540073,
+    "se_pressure": 0.4374499901144555,
+    "z_pressure": 0.5784029223267462,
+    "beta_vapor": 0.3009861063646909,
+    "se_vapor": 1.444584791948144,
+    "z_vapor": 0.20835475220446276,
+    "sum_equal_and_opposite": 0.5540084590186982,
+    "se_sum": 1.5989065613357125,
+    "z_equal_and_opposite": 0.3464920792844107,
+    "mean_y": 92.59665334307532
+  },
+  "h2_placebo_launch_angle": {
+    "label": "launch_angle placebo",
+    "y": "launch_angle",
+    "n": 139602,
+    "n_games": 6023,
+    "n_cells": 276,
+    "beta_pressure": -0.2308652200212652,
+    "se_pressure": 0.40543300078307326,
+    "z_pressure": -0.5694287825000943,
+    "beta_vapor": 0.5677632983800139,
+    "se_vapor": 1.35053626563468,
+    "z_vapor": 0.42039840974814213,
+    "sum_equal_and_opposite": 0.33689807835874874,
+    "se_sum": 1.49127880432963,
+    "z_equal_and_opposite": 0.22591220191732928,
+    "mean_y": 26.423002535780288
+  },
+  "h2_tempbins": {
+    "label": "nonparametric 1C temperature bins",
+    "y": "hit_distance_sc",
+    "n": 139602,
+    "n_games": 6023,
+    "n_cells": 276,
+    "beta_pressure": -90.33279347285634,
+    "se_pressure": 12.057942239274757,
+    "z_pressure": -7.491559644283844,
+    "beta_vapor": 259.9403538479528,
+    "se_vapor": 41.04037978635085,
+    "z_vapor": 6.333770671742258,
+    "sum_equal_and_opposite": 169.60756037509645,
+    "se_sum": 45.54096804178846,
+    "z_equal_and_opposite": 3.724285355978035,
+    "mean_y": 292.68996862509135
+  },
+  "h2_permutation": {
+    "n": 60,
+    "mean": 24.91067055283095,
+    "sd": 32.594005058147616,
+    "observed": 258.6659944958319
+  },
+  "h2_planted": [
+    {
+      "dose": 215.0,
+      "recovered_net": 214.99999998720477,
+      "ratio": 0.9999999999404873,
+      "se": 41.01085493806255
+    },
+    {
+      "dose": 1075.0,
+      "recovered_net": 1074.999999936043,
+      "ratio": 0.999999999940505,
+      "se": 41.01085493811402
+    }
+  ],
+  "h2_4_coors": {
+    "n": 7059,
+    "coors_mean_dist": 304.69244935543276,
+    "other_mean_dist": 292.68996862509135,
+    "delta_rho": 0.18654043305034662,
+    "implied_extra_ft_from_fit": 48.25166662865106
+  },
+  "h2_3_corn_did": {
+    "beta_ft": -0.03274434619139477,
+    "se_game_clustered_OVERSTATED": 0.3105377125874582,
+    "label_null_mean": 0.1220207195054872,
+    "label_null_sd": 0.39689572946068935,
+    "honest_z": -0.38993885347967877,
+    "perm_p": 0.7,
+    "n_perm": 60,
+    "n_corn_parks": 7
+  }
+}

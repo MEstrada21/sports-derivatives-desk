@@ -1,0 +1,12 @@
+{
+  "n_games": 8686,
+  "n_parks": 32,
+  "dew_sd_raw_c": 7.235566298907147,
+  "dew_sd_resid_after_temp_parkmonth_c": 3.82733747403794,
+  "rho_sd_raw": 0.04826904115052762,
+  "rho_sd_ex_coors": 0.03607869353066171,
+  "vapor_deficit_sd": 0.0028654493905139185,
+  "vapor_deficit_mean": 0.007052337718632507,
+  "n_roofed_games": 2268,
+  "n_corn_games": 2297
+}
